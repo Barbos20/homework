@@ -1,3 +1,25 @@
-.someClass {
+.filter{
+    width:50px;
+    border:none;
+}
+.filter:focus{
+    background:aqua;
+}
+
+.delete{
+    border:none;
+}
+
+.affair{
+    display:flex
 
 }
+
+.item{
+    width:100px
+}
+
+.priority{
+    width:80px
+}
+
