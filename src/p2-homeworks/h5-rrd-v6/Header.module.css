@@ -1,0 +1,25 @@
+.link{
+margin:10px;
+text-decoration: none;
+color:black
+}
+
+.header{
+    display: flex;
+    width: 400px;
+    transition-duration: 500ms;
+    transform:translate(-310px)
+}
+.header:hover{
+    transition-duration: 500ms;
+    transform:translate(0)
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+    background: red;
+}
