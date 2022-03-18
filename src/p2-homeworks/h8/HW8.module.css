@@ -1,0 +1,11 @@
+.people{
+    width: 180px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Btn{
+    border:none;
+    margin-right: 8px;
+    background: gray;
+}
