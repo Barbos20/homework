@@ -4,6 +4,7 @@ import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
 import Loading from '../Loading/Loading';
 import { loadingAC } from './bll/loadingReducer';
 import { AppStoreType } from './bll/store';
+import s from './HW10.module.css'
 
 
 function HW10() {
@@ -32,7 +33,7 @@ function HW10() {
           <div><Loading/></div>
            : (
         <div>
-          <SuperButton onClick={setLoading}>set loading...</SuperButton>
+          <SuperButton onClick={setLoading} className={s.btn}>click me</SuperButton>
         </div>
       )}
       <hr />
