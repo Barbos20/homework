@@ -1,0 +1,42 @@
+.RangeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 35vh;
+}
+.firstRange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background: rgb(32, 146, 221);
+  margin-left: 30px;
+}
+
+.Range {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-left: 30px;
+}
+.secondRange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background: rgb(32, 146, 221);
+}
+.thirdRange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background: rgb(32, 146, 221);
+}
