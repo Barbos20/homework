@@ -1,23 +1,15 @@
-.dark {
-    background: dimgrey;
+.night {
+  background: dimgrey;
 }
 
-.dark-text {
-    color: aliceblue;
+.night-text {
+  color: aliceblue;
 }
 
-.red {
-    background: lightcoral;
+.default {
+  background: lightgreen;
 }
 
-.red-text {
-    color: aqua;
-}
-
-.some {
-    background: lightgreen;
-}
-
-.some-text {
-    color: darkslateblue;
+.default-text {
+  color: darkslateblue;
 }
