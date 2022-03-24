@@ -6,7 +6,7 @@ import {requestTC, setSuccessAC} from "./request-reducer";
 import {AppStoreType} from "../h10/bll/store";
 import React from "react";
 
-const Request = () => {
+const Requests = () => {
     const success = useSelector<AppStoreType, boolean>(state => state.request.body.success)
     const error = useSelector<AppStoreType, string>(state => state.request.error)
     const dispatch = useDispatch()
@@ -27,4 +27,4 @@ const Request = () => {
     )
 }
 
-export default Request
+export default Requests

@@ -1,7 +1,8 @@
 import { themeReducer } from './../../h12/bll/themeReducer';
-import { combineReducers, createStore } from 'redux';
+import { applyMiddleware, combineReducers, createStore } from 'redux';
 import { loadingReducer } from './loadingReducer';
 import { requestReducer } from '../../h13/request-reducer';
+import thunkMiddleware from 'redux-thunk';
 
 const reducers = combineReducers({
   loading: loadingReducer,
@@ -9,7 +10,7 @@ const reducers = combineReducers({
   request: requestReducer,
 });
 
-const store = createStore(reducers);
+const store = createStore(reducers,applyMiddleware(thunkMiddleware));
 
 export default store;
 

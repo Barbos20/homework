@@ -5,3 +5,4 @@ export const requestsAPI = {
     return axios.post(`https://neko-cafe-back.herokuapp.com/auth/test`, body);
   },
 };
+

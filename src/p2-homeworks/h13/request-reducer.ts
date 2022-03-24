@@ -1,5 +1,6 @@
 import {Dispatch} from "redux";
-import {requestsAPI} from "./api/requestAPI";
+import {requestsAPI} from "./api/RequestsAPI";
+import thunk from 'redux-thunk'
 
 type stateType = {
     error: string
@@ -54,7 +55,9 @@ type DispatchType = Dispatch<ActionType>
 export const requestTC = (success: boolean) => (dispatch: DispatchType) => {
     requestsAPI.checkboxPost({success})
         .then(res => {
+           
             dispatch(setErrorAC(res.data.errorText))
+
         })
         .catch(error => dispatch(setErrorAC(error.response ? error.response.data.errorText : error.message)))
 

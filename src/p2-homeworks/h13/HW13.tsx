@@ -1,13 +1,14 @@
-import Request from "./Request";
+import Requests from "./Requests";
 import s from './HW13.module.css'
 import React from "react";
+
 
 
 const HW13 = () => {
     return(
         <div className={s.hw13}>
-            <h2>HW13</h2>
-           <Request/>
+            homework13
+           <Requests/>
         </div>
     )
 }
